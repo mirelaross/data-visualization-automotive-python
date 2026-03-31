@@ -163,6 +163,16 @@ def update_output_container(selected_statistics, input_year):
 # Plot Total Monthly Automobile sales using line chart.
         # grouping data for plotting.
         mas=data.groupby('Month')['Automobile_Sales'].sum().reset_index()
+        
+        # Define the chronological order of months
+        month_order = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
+                       'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+        
+        # Convert 'Month' to a categorical type with the specified order
+        mas['Month'] = pd.Categorical(mas['Month'], categories=month_order, ordered=True)
+        
+        # Sort the dataframe so the line connects in the right sequence
+        mas = mas.sort_values('Month')
         Y_chart2 = dcc.Graph(
             figure=px.line(mas,
             x='Month',
