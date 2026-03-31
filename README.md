@@ -29,3 +29,17 @@ Yearly Statistics - 2008
     - Expenditure maps and market share distributions.
     - Correlation between advertisement expenditure and sales volume.
 
+## How to Run
+To run this dashboard locally, follow these steps:
+**1. Clone the repository**
+git clone https://github.com/mirelaross/data-visualization-automotive-python.git
+cd data-visualization-automotive-python
+**2. Install dependencies**
+Make sure you have Python installed, then run:
+pip install pandas dash plotly
+**3. Run the application**
+Execute the main Python script:
+python data-visualization-automotive-python.py
+**4. View the Dashboard**
+Once the server starts, open your web browser and go to:
+http://127.0.0.1:8050/
