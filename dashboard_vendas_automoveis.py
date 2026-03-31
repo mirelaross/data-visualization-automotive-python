@@ -162,7 +162,7 @@ def update_output_container(selected_statistics, input_year):
             
 # Plot Total Monthly Automobile sales using line chart.
         # grouping data for plotting.
-        mas=data.groupby('Month')['Automobile_Sales'].sum().reset_index()
+        mas=yearly_data.groupby('Month')['Automobile_Sales'].sum().reset_index()
         
         # Define the chronological order of months
         month_order = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
