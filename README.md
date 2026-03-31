@@ -9,10 +9,10 @@ The application provides a dynamic interface to explore sales trends and market 
    
 ## Dashboard Preview
 Recession Period Statistics
-<img width="1325" height="894" alt="image" src="https://github.com/user-attachments/assets/0c2f0932-31d9-4cf9-8f7e-f1c5807c19a7" />
+<img width="1342" height="919" alt="image" src="https://github.com/user-attachments/assets/b24b99e6-2145-4b71-863f-cd771f5ce9a3" />
 
 Yearly Statistics - 2008
-<img width="1355" height="905" alt="image" src="https://github.com/user-attachments/assets/749c7bf4-94dd-4697-8b17-a5a08a604da0" />
+<img width="1357" height="918" alt="image" src="https://github.com/user-attachments/assets/21832876-3bb4-4d87-909b-fef2ef1594c3" />
 
 ## Tech Stack
 - **Python 3.8**: Core programming language.
